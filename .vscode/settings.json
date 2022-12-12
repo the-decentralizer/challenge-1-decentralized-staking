@@ -1,0 +1,54 @@
+{
+   "solidity.packageDefaultDependenciesDirectory": "packages/hardhat-ts/node_modules",
+   "solidity-va.test.defaultUnittestTemplate": "hardhat",
+   "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/.cache": true,
+      "**/.vs/": true,
+      "**/*.cs": true,
+      "**/*.orig": true,
+      "**/bin/": true,
+      "**/build/": true,
+      "**/debug/": true,
+      "**/dist/": true,
+      "**/node_modules/": true,
+      "**/obj": true,
+      "yarn-error.log": true,
+      "**/yarn-error.log": true,
+      "packages\\eth-hooks/lib": true
+   },
+   "explorerExclude.backup": null,
+   "eslint.workingDirectories": [
+
+      { "directory": "packages/eth-hooks", "changeProcessCWD": true },
+      { "directory": "packages/hardhat-ts", "changeProcessCWD": true },
+      { "directory": "packages/vite-app-ts", "changeProcessCWD": true },
+   ],
+   "search.exclude": {
+      "**/yarn-error.log": true,
+      "**/yarn.lock": true
+   },
+   "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#258cc7",
+      "activityBar.activeBorder": "#f0aed8",
+      "activityBar.background": "#258cc7",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#f0aed8",
+      "activityBarBadge.foreground": "#15202b",
+      "panel.border": "#258cc7",
+      "sash.hoverBorder": "#258cc7",
+      "sideBar.border": "#258cc7",
+      "statusBar.background": "#1d6e9c",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#258cc7",
+      "statusBarItem.remoteBackground": "#1d6e9c",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "tab.activeBorder": "#258cc7"
+   },
+   "peacock.color": "#1d6e9c"
+}
